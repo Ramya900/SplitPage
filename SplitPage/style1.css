@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    /*padding-top: 20px;*/
+}
+
+.left {
+    left: 0;
+}
+
+
+.right {
+    right: 0;
+    background-color: rgb(102, 1, 235);
+}
+
+.headding {
+    color: rgb(20, 9, 9);
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+nav {
+    /*margin-top: 5px;*/
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh;
+    align-items: center;
+    border: solid 2px rgb(236, 236, 236);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow: auto;
+}
+
+
+.nav-links li {
+    list-style: none;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(20, 10, 10);
+    overflow-x: hidden;
+    justify-content: space-around;
+    width: 50%;
+    align-items: left;
+    padding: 0px 30px 0px 50px;
+}
+
+.centerd {
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+h2 {
+    font-size: 45px;
+    font-family: 'Nanum Myeongjo', serif;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.icons {
+    position: absolute;
+    top: 56%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    letter-spacing: 20px;
+    padding-top: 5px;
+    color: rgb(197, 179, 179);
+}
+
+.app {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.app p {
+    font-size: 35px;
+    text-transform: none;
+    letter-spacing: 2px;
+    font-weight: unset;
+}
+
